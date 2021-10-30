@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+    background: gold;
+}
+body{
+    position: relative;
+    width: 1024px;
+    height: 1807px;
+    background-color: greenyellow;
+}
+.top{
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+}
+section{
+    background-color: gray;
+    height: 100px;
+}
