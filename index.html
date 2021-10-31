@@ -8,12 +8,46 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
     </style>
-    <title>Document</title>
+    <title>Pet Shop Online Store</title>
 </head>
 <body>
     <header>
-        <section>
-            <sup class="top">Hola</sup>
+        <section class="top">
+            <sup class = "btn-ofertas">Grandes ofertas en comederos</sup>
+            <!--   Menu idioma -->
+            <sup>
+                <select name="lang" class= "lang">
+                   <option value="1">Español</option> 
+                   <option value="2">Inglés</option>
+                </select> 
+                <select name="arg" class= "arg">
+                   <option value="prim">$ARG</option> 
+                   <option value="segun">$USD</option> 
+                </select>
+            </sup>
+        </section>
+        <section class = "logoymenu">
+            <article  class= "logo" >
+                <img src="./img/Cat.png" alt="logo pet shop">
+                <img src="./img/Front.png" alt="logo pet shop">
+                <img src="./img/Cat&Dog.png" alt="logo pet shop">
+                <img src="./img/Dog.png" alt="logo pet shop">
+            </article>
+            <nav class="mainmenu">
+                <a href="#" class="menulist"><img src="./img/pawprint22.png">   Categorías</a>
+                <a href="#" class="menulist"><img src="./img/pawprint22.png">Pets</a>
+                <a href="#" class="menulist"><img src="./img/pawprint22.png">Nosotros</a>
+                <a href="#" class="menulist"><img src="./img/pawprint22.png">Contactanos</a>
+            </nav>
+        </section>
+        <section class="headerimg">
+            <article class="background-text">
+                <h1>¡Es un placer tenerte aquí!</h1>
+                <h3>Comederos con descuentos</h3>
+            </article>
+            <button class="comederos-btn">
+                <p>COMEDEROS</p>
+            </button>
         </section>
     </header>
 </body>

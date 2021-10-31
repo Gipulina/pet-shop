@@ -1,5 +1,6 @@
 *{
     background: #E5E5E5;
+    font-family: 'Roboto';
 }
 body{
     position: relative;
@@ -8,15 +9,107 @@ body{
     margin: 0;
 
 }
+/*--- top line, lang and coin menu ---*/
 .top{
     position: absolute;
-    width: 1263px;
+    width: 1024px;
     height: 20px;
     background-color: black;
     color: #F3F3F3;
     font-family: 15px;
+
+}
+sup{
+    background-color: black;
+    color: #F3F3F3;
+}
+.btn-ofertas , .lang, .arg{
     font-family:  "Roboto";
 }
-header{
+.btn-ofertas{
+    padding-left: 100px;
+}
 
+.lang , .arg{
+    background-color: black;
+    border: none;
+    float:right;
+    color: #F3F3F3;
+    margin-right: 15px;
+}
+/*---header logo y menu ----*/
+.logoymenu{
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.logo, .logo img{
+    background: #F0A83E;
+}
+.logo{
+    padding-left: 40px;
+    padding-top:15px;
+    height: 23px;
+    float:left;
+}
+.logo img{
+    float:left;
+}
+/*menu principal*/
+.mainmenu{
+    float: right;    
+    background: #F0A83E;
+    padding-top: 25px;
+}
+.mainmenu img, .mainmenu a{
+    background: #F0A83E;
+}
+.menulist{
+    text-decoration: none;
+    color: #F3F3F3;
+    height: 15px;
+    padding:0 26px 0 15px;
+}
+.menulist img{
+    padding-right: 5px;
+}
+/*--header image --*/
+.headerimg{
+background-image: url(./img/bowll-and-pet.png);
+    height: 409px;
+}
+.background-text{
+    float:right;
+    background: none;
+    margin-right: 10px;
+}
+.headerimg h1 {
+    color:black;
+    font-family: 'Roboto';
+    background: seashell;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-top: 41%;
+    padding-right:10px ;
+}
+.headerimg h3{
+    background: none;
+    margin-top: 5%;
+    text-align: center;
+}
+.comederos-btn , .comederos-btn p{
+    background: #F0A83E;
+    border: none;
+    color:white;
+}
+.comederos-btn{
+    
+    float:right;
+    width: 141px;
+    height: 49px;
+    margin-top: 24%;
+    margin-right:-217px
 }
